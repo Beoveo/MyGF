@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.topic" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<topic:TopicQuery xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:topic="http://www.ibm.com/xtools/6.0.0/Topic" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_mMO_8CQYEeePZ-Ch_vj4eQ" topicId="com.ibm.xtools.viz.j2se.ui.J2SEStaticMethodInteractions">
+  <eAnnotations xmi:id="_mMO_8SQYEeePZ-Ch_vj4eQ" source="com.ibm.xtools.topic.query_attributes">
+    <details xmi:id="_mMO_8iQYEeePZ-Ch_vj4eQ" key="expand_levels" value="1"/>
+  </eAnnotations>
+  <context xmi:type="uml:Interaction" href="mmi:///#jmethod%5Ename=leer%5Esign=(I)QTEstablecimiento;%5Bjsrctype%5Ename=DAOEstablecimientoImp%5Bjcu%5Ename=DAOEstablecimientoImp.java%5Bjpack%5Ename=GandF.MyGF.integracion%5Bjsrcroot%5Esrcfolder=src/main/java%5Bproject%5Eid=MyGF%5D%5D%5D%5D%5D$uml.Interaction"/>
+</topic:TopicQuery>
