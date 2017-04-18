@@ -10,11 +10,15 @@ public class SAEstablecimiento {
 	//0 creado y activado
 	//1 activado
 	//2 error, ya ha sido activado
+	
+	/**
+	 * Da de alta a un nuevo establecimiento
+	 * @param tE: Establecimiento que se va a dar de alta
+	 * @return resultado de la ejecución del método. 0 creado y activado, 1 activado, 2 error, ya ha sido activado
+	 * @throws IOException: No se encuentra el archivo 
+	 */
 	public int darDeAlta(TEstablecimiento tE) throws IOException{
-		
-		String nombre = tE.getNombre();
-		String dir = tE.getDireccion();
-		
+				
 		DAOEstablecimientoImp daoe = new DAOEstablecimientoImp();
 		TEstablecimiento tEAux = daoe.leer(tE.getNombre(), tE.getDireccion());
 		 

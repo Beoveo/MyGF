@@ -10,9 +10,13 @@ import java.util.Scanner;
 
 public class DAOEstablecimientoImp  implements DAOEstablecimiento{
 
-	//id nombre dir cp activo tipo
-	//0  1      2    3   4     5
-	
+	//ID nombre direccion cp activo tipo
+
+	/**
+	 * Inserta un nuevo establecimiento en la base de datos
+	 * @param TEstablecimiento: Establecimiento que se va a insertar
+	 * @throws IOException: No se encuentra el archivo 
+	 */
 	public void insertar(TEstablecimiento TEstablecimiento) throws IOException {
 		File archivo = new File("Establecimientos.txt");
 		BufferedWriter writer = new BufferedWriter(new FileWriter(archivo, true)); //sin el parametro true borraba lo que habia antes en el txt
@@ -38,7 +42,12 @@ public class DAOEstablecimientoImp  implements DAOEstablecimiento{
 		writer.close();
 	}
 	
-	public String siguienteIdAux() throws FileNotFoundException, IOException{
+	/**
+	 * Devuelve el siguiente ID que debe tener un nuevo establecimiento que se inserte
+	 * @return ID que debe tener un nuevo establecimiento que se inserte
+	 * @throws IOException archivo no encontrado
+	 */
+	public String siguienteIdAux() throws IOException{
 		 String idFinal = " ";
 		 String linea;
 		 String estabArray[];
@@ -62,13 +71,12 @@ public class DAOEstablecimientoImp  implements DAOEstablecimiento{
 	public void actualizaActivo(String id, boolean activo) throws IOException{
 		String datos;
 		String estabArray[];
-		int actAux = 0;
+		int actAux;
 		boolean act = false;
 		
 		File archivo = new File("Establecimientos.txt");
 		archivo.renameTo(new File("EstablecimientoAux.txt"));
 		File archivoViejo = new File("EstablecimientoAux.txt");
-		File archivoAux = new File("Establecimientos.txt");
 		
 		Scanner sc = new Scanner(archivoViejo);  
 		
@@ -81,7 +89,7 @@ public class DAOEstablecimientoImp  implements DAOEstablecimiento{
 				insertar(tEstab);
 			}else {
 				actAux = Integer.parseInt(estabArray[4]);
-				if(actAux == 1) act = true;
+				act = (actAux == 1);
 				TEstablecimiento tEstab = new TEstablecimiento(estabArray[0], estabArray[1], estabArray[2] , 
 						Integer.parseInt(estabArray[3]), act, estabArray[5]);
 				insertar(tEstab);
@@ -91,22 +99,12 @@ public class DAOEstablecimientoImp  implements DAOEstablecimiento{
 		sc.close();
 		archivoViejo.delete();
 	}
-			
-			
-	
-
-	
-	public TEstablecimiento read(int id) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
 	
 	public TEstablecimiento leer(String nombre, String dir) throws FileNotFoundException {
 		//accedemos al fichero
 		Scanner sc = new Scanner(new File("Establecimientos.txt"));
 		
-		String n, d, establecimiento;
+		String establecimiento;
 		String estabArray[];
 		TEstablecimiento tEstab  = null;
 		boolean encontrado = false, act;

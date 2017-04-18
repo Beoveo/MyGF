@@ -74,4 +74,13 @@ public class TEstablecimiento {
 	public void setActivo(boolean activo) {
 		this.activo = activo;
 	}
+
+	public boolean equals(TEstablecimiento TEstablecimiento) {
+		return  this.id.equals(TEstablecimiento.id)&&
+				this.nombre.equals(TEstablecimiento.nombre)&&
+				this.tipo.equals(TEstablecimiento.tipo)&&
+				this.direccion.equals(TEstablecimiento.direccion)&&
+				this.CP==TEstablecimiento.CP&&
+				this.activo==TEstablecimiento.activo;
+	}
 }
