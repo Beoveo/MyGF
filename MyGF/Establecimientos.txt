@@ -1,0 +1,6 @@
+0 mercadona brisas 28710 0 X
+1 lidl peppo 23390 1 X
+2 dia sale 24056 1 X
+3 aldi pweo 20984 1 X
+4 hiber jepeto 23456 1 Y
+5 efgop jepeto 20006 1 Z
