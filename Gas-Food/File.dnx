@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<umlnotation:UMLDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_qdF9IDSrEeelobBuzFuz1w" type="Class" name="File.dnx">
+  <eAnnotations xmi:id="_qdF9ITSrEeelobBuzFuz1w" source="com.ibm.xtools.common.ui.reduction.editingCapabilities">
+    <details xmi:id="_qdF9IjSrEeelobBuzFuz1w" key="com.ibm.xtools.activities.javaVisualizerActivity" value="1"/>
+  </eAnnotations>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_qf6AkDSrEeelobBuzFuz1w" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_qgDxkDSrEeelobBuzFuz1w" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_qgDxkTSrEeelobBuzFuz1w" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_qgDxkjSrEeelobBuzFuz1w" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_qgEYoDSrEeelobBuzFuz1w" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_qgEYoTSrEeelobBuzFuz1w" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_qgEYojSrEeelobBuzFuz1w" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_qgEYozSrEeelobBuzFuz1w" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_qgEYpDSrEeelobBuzFuz1w" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.io.File%5Bproject%5Eid=Gas&amp;Food2.12%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qf6AkTSrEeelobBuzFuz1w"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_qgEYpTSrEeelobBuzFuz1w" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_qgE_sDSrEeelobBuzFuz1w" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_qgE_sTSrEeelobBuzFuz1w" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_qgE_sjSrEeelobBuzFuz1w" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_qgFmwDSrEeelobBuzFuz1w" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_qgFmwTSrEeelobBuzFuz1w" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_qgGN0DSrEeelobBuzFuz1w" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_qgGN0TSrEeelobBuzFuz1w" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_qgGN0jSrEeelobBuzFuz1w" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.io.File$TempDirectory%5Bproject%5Eid=Gas&amp;Food%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qgEYpjSrEeelobBuzFuz1w" x="5676" y="13728"/>
+  </children>
+  <element xsi:nil="true"/>
+</umlnotation:UMLDiagram>

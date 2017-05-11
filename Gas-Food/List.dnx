@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<umlnotation:UMLDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_iz-PoDSrEeelobBuzFuz1w" type="Class" name="List.dnx">
+  <eAnnotations xmi:id="_iz-PoTSrEeelobBuzFuz1w" source="com.ibm.xtools.common.ui.reduction.editingCapabilities">
+    <details xmi:id="_iz-PojSrEeelobBuzFuz1w" key="com.ibm.xtools.activities.javaVisualizerActivity" value="1"/>
+  </eAnnotations>
+  <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_i5BHsDSrEeelobBuzFuz1w" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label" useClassifierShape="true">
+    <children xmi:type="notation:DecorationNode" xmi:id="_i5CV0DSrEeelobBuzFuz1w" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_i5CV0TSrEeelobBuzFuz1w" width="530" height="530"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_i5CV0jSrEeelobBuzFuz1w" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_i5CV0zSrEeelobBuzFuz1w" type="Kind"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_i5C84DSrEeelobBuzFuz1w" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_i5C84TSrEeelobBuzFuz1w" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_i5C84jSrEeelobBuzFuz1w" type="AttributeCompartment" collapsed="true"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_i5C84zSrEeelobBuzFuz1w" type="OperationCompartment" collapsed="true"/>
+    <children xmi:type="notation:SemanticListCompartment" xmi:id="_i5Dj8DSrEeelobBuzFuz1w" visible="false" type="SignalCompartment"/>
+    <element xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.util.List%5Bproject%5Eid=Gas&amp;Food2.12%5D$uml.Interface"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i5BHsTSrEeelobBuzFuz1w"/>
+  </children>
+  <element xsi:nil="true"/>
+</umlnotation:UMLDiagram>

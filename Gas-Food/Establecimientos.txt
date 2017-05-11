@@ -1,0 +1,11 @@
+0 mercadona brisas 28710 0 X
+1 lidl peppo 23390 1 X
+2 dia sale 24056 1 X
+3 aldi pweo 20984 1 X
+4 hiberrrrr jepeto 23456 0 YYYY
+5 efgop jepeto 20006 1 Z
+6 hiber jepeto 23456 0 YXXY
+7 nombre direccion 33333 1 G
+8 hiberx jepeto 23756 1 YXYY
+9 hiberrrrrr jepeto 23456 0 YYYY
+10 hibex jepeto 23756 0 XYYY
