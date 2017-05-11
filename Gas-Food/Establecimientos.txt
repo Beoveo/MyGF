@@ -4,8 +4,10 @@
 3 aldi pweo 20984 1 X
 4 hiberrrrr jepeto 23456 0 YYYY
 5 efgop jepeto 20006 1 Z
-6 hiber jepeto 23456 0 YXXY
-7 nombre direccion 33333 1 G
-8 hiberx jepeto 23756 1 YXYY
-9 hiberrrrrr jepeto 23456 0 YYYY
-10 hibex jepeto 23756 0 XYYY
+6 hiber jepeto 23456 0 YYYY
+7 hiberx jepeto 23756 1 YXYY
+8 hiberrrrrr jepeto 23456 0 YYYY
+9 hibex jepeto 23756 1 XYYY
+10 nombre direccion 33333 0 G
+11 nombre direccion 33333 0 G
+12 nombre direccion 33333 0 G

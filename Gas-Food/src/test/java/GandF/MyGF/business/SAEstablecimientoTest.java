@@ -33,7 +33,7 @@ public class SAEstablecimientoTest {
 		SAEstablecimiento sae = new SAEstablecimiento();
 		TEstablecimiento tE = new TEstablecimiento("6", "hiberrrrrr", "jepeto",
 				23456, true, "YYYY");
-		sae.darDeAlta(tE);
+		sae.actualizarEstablecimiento(tE, tE.getNombre(), tE.getDireccion());
 		int ret = sae.darDeBaja(tE.getId());
 		assertTrue(ret == 1);
 	}
@@ -86,19 +86,22 @@ public class SAEstablecimientoTest {
 	@Test
 	public void insertaLee() throws IOException {
 		SAEstablecimiento sae = new SAEstablecimiento();
-		sae.darDeAlta(test);
+		DAOEstablecimientoImp daoe = new DAOEstablecimientoImp();
+		int id=Integer.parseInt(daoe.siguienteIdAux())-1;
+		String idNuevo = Integer.toString(id);
+		test.setId(idNuevo);
+		if(sae.leerID(test)==null){
+			sae.darDeAlta(test);
+		}
 		sae.darDeBaja(test.getId());
-		
 		TEstablecimiento tEstabAux = sae.leerID(test);
-		if (tEstabAux.getId().equals(test.getId())
+		
+		assertTrue((tEstabAux.getId().equals(test.getId())
 				&& tEstabAux.getNombre().equals(test.getNombre())
 				&& tEstabAux.getDireccion().equals(test.getDireccion())
 				&& tEstabAux.getCP() == test.getCP()
 				&& tEstabAux.getActivo() == test.getActivo()
-				&& tEstabAux.getTipo().equals(test.getTipo()))
-			assertEquals(1, 1);
-		else
-			assertEquals(0, 1);
+				&& tEstabAux.getTipo().equals(test.getTipo())));
 	}
 
 }
